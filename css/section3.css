@@ -1,0 +1,51 @@
+.section3 {
+    width: 1280px; height: 500px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+.section3 h3{
+    width: 100%; text-align: center;
+    font-size: 36px;
+}
+.slide_container3 {
+    display: flex;
+}
+.slide_container3 .slide_img {
+    margin-left: 10px;
+}
+.pre3 {
+    cursor: pointer;
+    position: absolute;
+    top: 170px; left: -50px;
+}
+.next3 {
+    cursor: pointer;
+    position: absolute;
+    top: 170px; right: -50px;
+}
+.dotS3 {
+    position: absolute;
+    right: 0px; top: -30px;
+    display: flex;
+}
+.dotS3 li {
+    margin-left: 10px;
+}
+.dotS3 li.slick-active button{background-color: #34baff;}
+.dotS3 li button {
+    cursor: pointer;
+    font-size: 0;
+    width: 20px; height: 20px;
+    background-color: #aaa;
+    border: none;
+    border-radius: 100%;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    background-color: red;
+}
+.banner img {
+    width: 100%;
+} 

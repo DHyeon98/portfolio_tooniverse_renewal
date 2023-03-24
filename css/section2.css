@@ -1,0 +1,142 @@
+.section2 {
+    width: 100%; height: 640px;
+    margin-bottom: 150px;
+    /* overflow: hidden; */
+}
+.section2 h3 {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+}
+.section2 .category {
+    position: relative;
+    z-index: 10;
+    top: 70px; margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.section2 .category li {
+    margin-right: 10px;
+}
+.section2 .category li:last-child {
+    margin-right: 0;
+}
+
+
+.section2 .category li input {
+    display: none;
+}
+.section2 .category label {
+    cursor: pointer;
+    display: block;
+    width: 100px; padding: 10px 0;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #aaa;
+    transition: all 0.5s;
+}
+.section2 .category input:checked + label {
+    background-color: #34baff;
+    transform: translateY(-5px);
+}
+
+.section2 .pre2 {
+    cursor: pointer;
+    position: absolute;
+    top: 48%; left: -50px;
+    transform: translateY(-50%);
+}
+.section2 .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 48%; right: -50px;
+    transform: translateY(-50%);
+}
+.section2 .dotS2 {
+    position: absolute;
+    z-index: 11;
+    display: flex;
+    top: 40px; right: 0;
+}
+.section2 .dotS2 li {
+    margin-left: 10px;
+}
+.section2 .dotS2 li button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 0;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background-color: #aaa;
+}
+
+.section2 .pre2_2 {
+    cursor: pointer;
+    position: absolute;
+    top: 48%; left: -50px;
+    transform: translateY(-50%);
+}
+.section2 .next2_2 {
+    cursor: pointer;
+    position: absolute;
+    top: 48%; right: -50px;
+    transform: translateY(-50%);
+}
+.section2 .dotS2_2 {
+    position: absolute;
+    z-index: 11;
+    display: flex;
+    top: 40px; right: 0;
+}
+.section2 .dotS2_2 li {
+    margin-left: 10px;
+}
+.section2 .dotS2_2 li button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 0;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background-color: #aaa;
+}
+.dotS2 li.slick-active button{background-color: #34baff;}
+.dotS2_1 li.slick-active button{background-color: #34baff;}
+.dotS2_2 li.slick-active button{background-color: #34baff;}
+
+.genre {
+    position: absolute;
+    top: 80px; left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.genre .slide_img a {
+    display: block;
+    overflow: hidden;
+    height: 417px;
+    margin-bottom: 5px;
+}
+.genre .slide_img img {
+    transition: all 0.5s;
+}
+.genre .slide_img img:hover {
+    transform: scale(1.1);
+}
+.genre .slide_img span {
+    font-weight: bold;
+    font-size: 20px;
+}
+aside {
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+    width: 1280px;
+    height: 1000px;
+}
